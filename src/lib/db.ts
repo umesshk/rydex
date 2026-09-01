@@ -3,7 +3,7 @@ import mongoose from "mongoose";
 const MONGODB_URL = process.env.MONGODB_URL;
 
 if (!MONGODB_URL) {
-  throw new Error("Url Missing ");
+  throw new Error("MONGODB_URL Missing ");
 }
 
 let cachedConn = global.mongo_conn;
