@@ -3,3 +3,5 @@ declare module "next-auth" {
     role: string;
   }
 }
+
+export {};
